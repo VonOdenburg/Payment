@@ -1,0 +1,60 @@
+{
+  "_embedded" : {
+    "payments" : [ {
+      "id" : 1,
+      "currency" : "HUF",
+      "sum" : 15.00,
+      "category" : "travel",
+      "summary" : "Test 1",
+      "paid" : "2022-04-21T11:16:00Z",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost/api/payments/1"
+        },
+        "payment" : {
+          "href" : "http://localhost/api/payments/1{?projection}",
+          "templated" : true
+        },
+        "category" : {
+          "href" : "http://localhost/api/payments/1/category"
+        },
+        "currency" : {
+          "href" : "http://localhost/api/payments/1/currency"
+        }
+      }
+    }, {
+      "id" : 2,
+      "currency" : "HUF",
+      "sum" : 5.00,
+      "category" : "travel",
+      "summary" : "Test 2",
+      "paid" : "2022-04-22T11:16:00Z",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost/api/payments/2"
+        },
+        "payment" : {
+          "href" : "http://localhost/api/payments/2{?projection}",
+          "templated" : true
+        },
+        "category" : {
+          "href" : "http://localhost/api/payments/2/category"
+        },
+        "currency" : {
+          "href" : "http://localhost/api/payments/2/currency"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost/api/payments/search/searchByCurrency?page=0&size=20"
+    }
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 2,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

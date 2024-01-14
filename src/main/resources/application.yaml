@@ -1,0 +1,6 @@
+spring:
+  data.rest.base-path: /api
+  jpa:
+    defer-datasource-initialization: true
+  sql.init.encoding: utf-8
+

@@ -1,0 +1,13 @@
+{
+  "_embedded": {
+    "currencies": []
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost/api/currencies"
+    },
+    "profile": {
+      "href": "http://localhost/api/profile/currencies"
+    }
+  }
+}

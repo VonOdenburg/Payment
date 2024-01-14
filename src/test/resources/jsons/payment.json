@@ -1,0 +1,7 @@
+{
+  "category": "http://localhost:8080/api/categories/travel",
+  "currency": "http://localhost:8080/api/currencies/HUF",
+  "sum": 123456,
+  "summary": "Test Summary",
+  "paid": "2024-01-13T12:20:33.828797+01:00"
+}

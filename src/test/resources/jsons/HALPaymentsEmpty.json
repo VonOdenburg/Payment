@@ -1,0 +1,16 @@
+{
+  "_embedded": {
+    "payments": []
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost/api/payments"
+    },
+    "profile": {
+      "href": "http://localhost/api/profile/payments"
+    },
+    "search": {
+      "href": "http://localhost/api/payments/search"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "_embedded": {
+    "categories": []
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost/api/categories"
+    },
+    "profile": {
+      "href": "http://localhost/api/profile/categories"
+    }
+  }
+}

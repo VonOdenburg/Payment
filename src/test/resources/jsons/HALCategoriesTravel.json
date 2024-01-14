@@ -1,0 +1,25 @@
+{
+  "_embedded": {
+    "categories": [
+      {
+        "name": "Travel",
+        "_links": {
+          "self": {
+            "href": "http://localhost/api/categories/travel"
+          },
+          "category": {
+            "href": "http://localhost/api/categories/travel"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "http://localhost/api/categories"
+    },
+    "profile": {
+      "href": "http://localhost/api/profile/categories"
+    }
+  }
+}
